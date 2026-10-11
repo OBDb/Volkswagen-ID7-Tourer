@@ -49,16 +49,16 @@
   ]},
 { "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2AF7"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
-    {"id": "ID7_AUX_BAT_V",        "path": "Battery", "fmt": {            "len": 16, "max": 69,                                      "div": 1000, "add": 4,                 "unit": "volts"       }, "name": "12V battery voltage",             "suggestedMetric": "starterBatteryVoltage"},
-    {"id": "ID7_AUX_BAT_C",        "path": "Battery", "fmt": {"bix": 16,  "len": 32, "max": 1000000,  "min": -1000000, "mul": 0.001,                          "sign": true, "unit": "amps"        }, "name": "12V battery current"},
-    {"id": "ID7_AUX_BAT_SOC",      "path": "Battery", "fmt": {"bix": 56,  "len": 8,  "max": 100,                                                                            "unit": "percent"     }, "name": "12V battery soc"},
-    {"id": "ID7_AUX_BAT_T",        "path": "Battery", "fmt": {"bix": 64,  "len": 8,  "max": 215,      "min": -40,                                 "add": -40,               "unit": "celsius"     }, "name": "Temperature, 12V battery"},
-    {"id": "ID7_AUX_BAT_T_S",      "path": "Battery", "fmt": {"bix": 72,  "len": 8,  "max": 215,      "min": -40,                                 "add": -40,               "unit": "celsius"     }, "name": "Temperature, 12V battery sensor"},
-    {"id": "ID7_AUX_BAT_CHRG_TOT", "path": "Battery", "fmt": {"bix": 96,  "len": 32, "max": 10000000,                                "div": 10,                             "unit": "ampereHours" }, "name": "12V battery total charge"},
-    {"id": "ID7_AUX_BAT_DSCH_TOT", "path": "Battery", "fmt": {"bix": 128, "len": 32, "max": 10000000,                                "div": 10,                             "unit": "ampereHours" }, "name": "12V battery total discharge"},
-    {"id": "ID7_AUX_BAT_AGE_CAP",  "path": "Battery", "fmt": {"bix": 160, "len": 8,  "max": 100,                                                                            "unit": "percent"     }, "name": "12V battery aging by capacity"},
-    {"id": "ID7_AUX_BAT_AGE_POW",  "path": "Battery", "fmt": {"bix": 168, "len": 8,  "max": 100,                                                                            "unit": "percent"     }, "name": "12V battery aging by power"},
-    {"id": "ID7_AUX_BAT_CAP",      "path": "Battery", "fmt": {"bix": 176, "len": 8,  "max": 100,                                                                            "unit": "ampereHours" }, "name": "12V battery adapted capacity"}
+    {"id": "ID7_AUX_BAT_V",        "path": "Battery", "fmt": {            "len": 16, "max": 69,                        "div": 1000, "add": 4,                 "unit": "volts"       }, "name": "12V battery voltage",             "suggestedMetric": "starterBatteryVoltage"},
+    {"id": "ID7_AUX_BAT_C",        "path": "Battery", "fmt": {"bix": 16,  "len": 32, "max": 1000000,  "min": -1000000, "div": 1000,             "sign": true, "unit": "amps"        }, "name": "12V battery current"},
+    {"id": "ID7_AUX_BAT_SOC",      "path": "Battery", "fmt": {"bix": 56,  "len": 8,  "max": 100,                                                              "unit": "percent"     }, "name": "12V battery soc"},
+    {"id": "ID7_AUX_BAT_T",        "path": "Battery", "fmt": {"bix": 64,  "len": 8,  "max": 215,      "min": -40,                   "add": -40,               "unit": "celsius"     }, "name": "Temperature, 12V battery"},
+    {"id": "ID7_AUX_BAT_T_S",      "path": "Battery", "fmt": {"bix": 72,  "len": 8,  "max": 215,      "min": -40,                   "add": -40,               "unit": "celsius"     }, "name": "Temperature, 12V battery sensor"},
+    {"id": "ID7_AUX_BAT_CHRG_TOT", "path": "Battery", "fmt": {"bix": 96,  "len": 32, "max": 10000000,                  "div": 10,                             "unit": "ampereHours" }, "name": "12V battery total charge"},
+    {"id": "ID7_AUX_BAT_DSCH_TOT", "path": "Battery", "fmt": {"bix": 128, "len": 32, "max": 10000000,                  "div": 10,                             "unit": "ampereHours" }, "name": "12V battery total discharge"},
+    {"id": "ID7_AUX_BAT_AGE_CAP",  "path": "Battery", "fmt": {"bix": 160, "len": 8,  "max": 100,                                                              "unit": "percent"     }, "name": "12V battery aging by capacity"},
+    {"id": "ID7_AUX_BAT_AGE_POW",  "path": "Battery", "fmt": {"bix": 168, "len": 8,  "max": 100,                                                              "unit": "percent"     }, "name": "12V battery aging by power"},
+    {"id": "ID7_AUX_BAT_CAP",      "path": "Battery", "fmt": {"bix": 176, "len": 8,  "max": 100,                                                              "unit": "ampereHours" }, "name": "12V battery adapted capacity"}
   ]}
 ]
 }
