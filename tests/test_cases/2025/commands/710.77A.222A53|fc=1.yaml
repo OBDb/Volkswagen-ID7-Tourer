@@ -22,16 +22,23 @@ test_cases:
     77A100A622A5396021F
     77A2102EF0200AAAAAA
 - expected_values:
-    ID7_DCDC_I: 51
-    ID7_DCDC_I_RSV: 222
-    ID7_DCDC_V_LOW: 15.1
-  response: |-
-    77A100A622A53970232
-    77A2102DD0200AAAAAA
-- expected_values:
     ID7_DCDC_I: 36
     ID7_DCDC_I_RSV: 238
     ID7_DCDC_V_LOW: 15.2
   response: |-
     77A100A622A53980223
     77A2102ED0200AAAAAA
+- expected_values:
+    ID7_DCDC_I: 82
+    ID7_DCDC_I_RSV: 191
+    ID7_DCDC_V_LOW: 15.2
+  response: |-
+    77A100A622A53980251
+    77A2102BE0200AAAAAA
+- expected_values:
+    ID7_DCDC_I: 90
+    ID7_DCDC_I_RSV: 183
+    ID7_DCDC_V_LOW: 15.2
+  response: |-
+    77A100A622A53980259
+    77A2102B60200AAAAAA
