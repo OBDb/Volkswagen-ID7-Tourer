@@ -1,0 +1,17 @@
+command_id: 710.77A.222AB8|fc=1
+test_cases:
+- expected_values:
+    ID7_HVBAT_KWH: 54.175
+  response: |-
+    77A100B622AB8000008
+    77A217700000000AAAA
+- expected_values:
+    ID7_HVBAT_KWH: 65.05
+  response: |-
+    77A100B622AB800000A
+    77A212A00000000AAAA
+- expected_values:
+    ID7_HVBAT_KWH: 65.075
+  response: |-
+    77A100B622AB800000A
+    77A212B00000000AAAA

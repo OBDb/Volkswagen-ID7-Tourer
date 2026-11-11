@@ -4,11 +4,17 @@ test_cases:
     ID7_SSB_R: 0
   response: 77A04622A0E00
 - expected_values:
+    ID7_SSB_R: 0.2
+  response: 77A04622A0E01
+- expected_values:
     ID7_SSB_R: 1.2
   response: 77A04622A0E06
 - expected_values:
     ID7_SSB_R: 7.4
   response: 77A04622A0E25
+- expected_values:
+    ID7_SSB_R: 8
+  response: 77A04622A0E28
 - expected_values:
     ID7_SSB_R: 8.2
   response: 77A04622A0E29
